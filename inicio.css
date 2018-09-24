@@ -1,0 +1,30 @@
+.body{
+    background-color:black;
+}
+/*Diseño de div portada*/
+.portada{
+    background-color: #ecf4f3;
+    height: 400px;
+}
+.tituloPortada{
+  text-align: center;
+  padding-top: 70px;
+  color: #555151;
+  font-family: 'Lato', sans-serif;
+}
+.parrafoPresentacion{
+    margin-top: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+    text-align: justify;
+}
+/*Diseño de trabajos */
+.fondoTrabajos{
+    height: 700px;
+}
+.tituloTrabajos{
+    text-align: center;
+  padding-top: 70px;
+  color: #555151;
+  font-family: 'Lato', sans-serif;
+}
