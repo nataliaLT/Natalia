@@ -87,13 +87,24 @@ font-size: 17px;
 /*Diseño de experiencia */
 .fondoExperiencia{
     background-color: #ecf4f3;
-    height: 400px;
+    height: 500px;
 }
 .tituloExperiencia{
   text-align: center;
   padding-top: 70px;
   color: #555151;
   font-family: 'Lato', sans-serif;
+}
+.card{
+    width: 300px;
+    height: 100px;
+    margin-top: 40px;
+}
+.parrafoText{
+ 
+    font-size: 10px;
+    color: #555151;
+    font-family: 'Lato', sans-serif;
 }
 
 /*Diseño de contacto */
@@ -114,4 +125,9 @@ margin-left: 180px;
 .textarea{
 margin-top: 40px;
 margin-left: 99px;
+}
+.btn{
+margin-top: 2%;
+background-color: #76dbd1;
+color: #555151;
 }
