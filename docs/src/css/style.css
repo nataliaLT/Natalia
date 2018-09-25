@@ -1,0 +1,14 @@
+body{
+    background-color: #76dbd1;
+}
+h1{
+    margin-top: 200px;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-size: 70px;
+}
+#entrar{
+    margin-top: 10px;
+    margin-left: 550px;
+    color: black;
+}
