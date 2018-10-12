@@ -15,5 +15,8 @@
     "url": "https://github.com/nataliaLT/portafolio/issues"
   },
   "homepage": "https://github.com/nataliaLT/portafolio#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "animate.css": "^3.7.0"
+  }
 }
