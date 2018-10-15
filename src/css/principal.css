@@ -103,6 +103,9 @@ font-size: 17px;
     color: #555151;
     font-family: 'Lato', sans-serif;
 }
+.photoshop{
+    height: 8%;
+}
 
 /*Diseño de contacto */
 .fondoContacto{
