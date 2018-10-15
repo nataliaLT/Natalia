@@ -1,6 +1,4 @@
-.body{
-    background-color:black;
-}
+
 .navbar{
     background-color: #76dbd1 !important; 
 }
@@ -16,41 +14,38 @@ color: #555151;
 font-family: 'Lato', sans-serif;
 font-size: 17px;
 }
-/*Diseño de div portada*/
-.portada{
+
+/*Diseño de sección perfil*/
+.fondoPerfil{
     background-color: #ecf4f3;
     width: auto;
     height: 100vh;
-    border-top: 10px solid #70a89e;  
+    border-top: 10px solid #57a99a;  
 }
 .tituloPortada{
-  margin-top: 10%;
-  text-align: center;
-  color: #555151;
-  font-family: 'Lato', sans-serif;
+    margin-top: 10%;
+    color: #555151;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
 }
 .parrafoPresentacion{
     margin-top: 20px;
-    margin-left: 150px;
-    margin-right: 150px;
-    text-align: justify;
+    text-align: center;
 }
+
 /*Diseño de trabajos */
 .fondoTrabajos{
     height: 100vh;
     background-color: #fffdf6; 
- 
 }
 .tituloTrabajos{
+    margin-top: 5%;
     text-align: center;
-    padding-top: 70px;
     color: #555151;
     font-family: 'Lato', sans-serif;
-
 }
 .portafolio-contenedor{
-    margin-top: 15%;
-    margin-left: 0%;
+    margin-top: 5%;
     display: flex;
     justify-content: space-between;
 }
@@ -84,12 +79,14 @@ font-size: 17px;
 .portafolio-item:hover .portafolio-img{
     transform: scale(1.15);
 }
+
 /*Diseño de experiencia */
 .fondoExperiencia{
     background-color: #ecf4f3;
     height: 100vh;
 }
 .tituloExperiencia{
+  margin-top: 0%;
   text-align: center;
   padding-top: 70px;
   color: #555151;
@@ -109,32 +106,28 @@ font-size: 17px;
 
 /*Diseño de contacto */
 .fondoContacto{
-    height: 100vh;
+    background-color: #fffdf6;
+}
+.contenidocontacto{
+    height: 200px;
     background-color: #fffdf6;
 }
 .tituloContacto{
+    margin-top: 5%;
     text-align: center;
-    padding-top: 70px;
     color: #555151;
     font-family: 'Lato', sans-serif;
 }
-.formularioContacto{
-margin-top: 40px;
-margin-left: 180px;
-}
-.textarea{
-margin-top: 40px;
-margin-left: 99px;
-}
-.btn{
-margin-top: 2%;
-background-color: #76dbd1;
-color: #555151;
-}
-.fondoLink{
-    background-color: #57a99a;  
-    height: 10%;
-}
 .logoLinkedin{
-    height: 5%;
+    height: 15%;
+    margin-left: 47%;
+}
+.github{
+    text-align: center;
+}
+.correo{
+    text-align: center;
+    color: #555151;
+    font-family: 'Lato', sans-serif;
+    margin-top: 1%;
 }
