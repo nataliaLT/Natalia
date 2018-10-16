@@ -1,3 +1,9 @@
 body{
     background-color: #ecf4f3;
 }
+.tituloFoodMap{
+    color: black;
+    font-family: 'Prata', serif;
+    text-align: center;
+    margin-top: 5%;
+}
