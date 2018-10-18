@@ -6,8 +6,8 @@ html,body{
 }
 
 .navbar-brand{
- font-family: 'Dancing Script', cursive;
- font-size: 30px;
+ font-family: 'Prata', serif;
+ font-size: 20px;
  margin-left: 60px;
  
 }
@@ -127,11 +127,12 @@ opacity: .5;
     font-family: 'Prata', serif;
 }
 .logoLinkedin{
-    height: 15%;
     margin-left: 47%;
+    color: black;
 }
 .github{
     text-align: center;
+    color: black;
 }
 .correo{
     text-align: center;
