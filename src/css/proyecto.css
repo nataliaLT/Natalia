@@ -7,3 +7,33 @@ body{
     text-align: center;
     margin-top: 5%;
 }
+.carruseel{
+    width: 60%;
+    margin-top: 5%;
+}
+.img{
+    width:5% ;
+}
+.parr{
+    width: 50%;
+}
+.parrafo{
+    margin-top: 10%;
+    color: black;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+.github{
+    height: 10%;
+    background-color: black;
+}
+.link{
+    width: 50%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    margin-left: 38%;
+}
+.ver{
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
