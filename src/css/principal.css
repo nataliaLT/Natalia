@@ -41,7 +41,7 @@ font-size: 17px;
 .fondoTrabajos{
     padding: 5%;
     background-color: #ecf4f3;
-    height: 100vh;
+    padding-bottom: 15%;
 }
 .tituloTrabajos{
     margin-top: 5%;
@@ -69,12 +69,14 @@ font-size: 17px;
     white-space: nowrap;
     overflow: hidden;
 }
-
-/* .overlay{
+.overlay{
     opacity: 0;
-} */
+}
 .wrapper:hover .proyectos {
 opacity: .5;
+}
+.wrapper:hover .overlay{
+opacity: 1;
 }
 
 /*Diseño de experiencia */
@@ -127,12 +129,15 @@ opacity: .5;
     font-family: 'Prata', serif;
 }
 .logoLinkedin{
-    margin-left: 47%;
+    margin-left: 45%;
     color: black;
+    font-size: 40px;
 }
 .github{
     text-align: center;
     color: black;
+    font-size: 40px;
+    margin-left: 10px;
 }
 .correo{
     text-align: center;
