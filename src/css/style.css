@@ -18,3 +18,12 @@ h1{
     margin-left: 500px;
     color: black;
 }
+
+@media (max-width:360px) { 
+    #entrar{
+        margin-left: 30%;
+    }
+    .name{
+        margin-top: 100px;
+    }
+}

@@ -22,7 +22,7 @@ font-size: 17px;
 }
 /*Diseño de sección perfil*/
 .fondoPerfil{
-    background-color: #ecf4f3;
+    background-color: #fffdf6; 
     width: auto;
     height: 100vh;
 }
@@ -40,20 +40,48 @@ font-size: 17px;
 /*Diseño de trabajos */
 .fondoTrabajos{
     padding: 5%;
-    background-color: #fffdf6; 
+    background-color: #ecf4f3;
+    height: 100vh;
 }
 .tituloTrabajos{
     margin-top: 5%;
+    margin-bottom: 10%;
     text-align: center;
     color: black;
     font-family: 'Prata', serif;
 }
+.proyectos{
+    height: 210px;
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    margin-bottom: 5%;
+}
+.content{
+    position: absolute;
+    top:45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    font-size: 60px;
+    color:black;
+    white-space: nowrap;
+    overflow: hidden;
+}
 
+/* .overlay{
+    opacity: 0;
+} */
+.wrapper:hover .proyectos {
+opacity: .5;
+}
 
 /*Diseño de experiencia */
 .fondoExperiencia{
+    padding: 5%;
     padding-bottom: 10%;
-    background-color: #ecf4f3;
+    background-color: #fffdf6; 
 }
 .tituloExperiencia{
   margin-top: 0%;
@@ -86,11 +114,11 @@ font-size: 17px;
 
 /*Diseño de contacto */
 .fondoContacto{
-    background-color: #fffdf6;
+    background-color: #ecf4f3;
 }
 .contenidocontacto{
     height: 200px;
-    background-color: #fffdf6;
+    background-color: #ecf4f3;
 }
 .tituloContacto{
     margin-top: 5%;
