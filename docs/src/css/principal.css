@@ -1,0 +1,147 @@
+html,body{
+    scroll-behavior: smooth;
+}
+.navbar{
+    background-color: #76dbd1 !important; 
+}
+
+.navbar-brand{
+ font-family: 'Prata', serif;
+ font-size: 20px;
+ margin-left: 60px;
+ 
+}
+.nav-link{
+color: black;
+font-family: 'Lato', sans-serif;
+font-size: 17px;
+}
+.collapse{
+    display: flex;
+    justify-content: right;
+}
+/*Diseño de sección perfil*/
+.fondoPerfil{
+    background-color: #fffdf6; 
+    width: auto;
+    height: 100vh;
+}
+.tituloPortada{
+    margin-top: 10%;
+    color: black;
+    font-family: 'Prata', serif;
+    text-align: center;
+}
+.parrafoPresentacion{
+    margin-top: 20px;
+    text-align: center;
+}
+
+/*Diseño de trabajos */
+.fondoTrabajos{
+    padding: 5%;
+    background-color: #ecf4f3;
+    padding-bottom: 15%;
+}
+.tituloTrabajos{
+    margin-top: 5%;
+    margin-bottom: 10%;
+    text-align: center;
+    color: black;
+    font-family: 'Prata', serif;
+}
+.proyectos{
+    height: 210px;
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    margin-bottom: 5%;
+}
+.content{
+    position: absolute;
+    top:45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    font-size: 60px;
+    color:black;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.overlay{
+    opacity: 0;
+}
+.wrapper:hover .proyectos {
+opacity: .5;
+}
+.wrapper:hover .overlay{
+opacity: 1;
+}
+
+/*Diseño de experiencia */
+.fondoExperiencia{
+    padding: 5%;
+    padding-bottom: 10%;
+    background-color: #fffdf6; 
+}
+.tituloExperiencia{
+  margin-top: 0%;
+  text-align: center;
+  padding-top: 70px;
+  color: black;
+  font-family: 'Prata', serif;
+}
+.card{
+    margin-top: 40px;
+}
+.parrafoText{
+ 
+    font-size: 10px;
+    color: #555151;
+    font-family: 'Lato', sans-serif;
+}
+.photoshop{
+    height: 22px;
+}
+.bootstrap{
+    height: 15px;
+}
+.figma{
+    height: 15px;
+}
+.ligthroom{
+    height: 15px;
+}
+
+/*Diseño de contacto */
+.fondoContacto{
+    background-color: #ecf4f3;
+}
+.contenidocontacto{
+    height: 200px;
+    background-color: #ecf4f3;
+}
+.tituloContacto{
+    margin-top: 5%;
+    text-align: center;
+    color: black;
+    font-family: 'Prata', serif;
+}
+.logoLinkedin{
+    margin-left: 45%;
+    color: black;
+    font-size: 40px;
+}
+.github{
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    margin-left: 10px;
+}
+.correo{
+    text-align: center;
+    color: #555151;
+    font-family: 'Lato', sans-serif;
+    margin-top: 1%;
+}
