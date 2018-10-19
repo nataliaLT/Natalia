@@ -7,7 +7,6 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Natalia Lucero</title>
   <link rel="icon" href="imagenes/logo.ico" />
-  <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Lato" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Lato|Prata" rel="stylesheet">
   <link rel="stylesheet" href="animate.min.css">
   <link rel="stylesheet" href="bootstrap-4.1.1-dist/css/bootstrap.css">
@@ -15,6 +14,7 @@
     crossorigin="anonymous">
   <link rel="stylesheet" href="animate.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <link rel="stylesheet" href="src/css/principal.css">
 </head>
 
@@ -49,7 +49,9 @@
     <div id="Perfil" class="container-fluid fondoPerfil">
       <div class="row">
         <div class="col-lg-12 col-sm-12 col-md-12 ">
-          <h1 class="font-weight-bold  tituloPortada">Sobre mi</h1>
+          <h1 data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="1500" class="font-weight-bold  tituloPortada">Sobre mi</h1>
         </div>
       </div>
       <div class="row contenedor">
@@ -66,7 +68,9 @@
       <div class="container">
           <div class="row">
               <div class="col-12 col-sm-12 col-md-12 col-lg-12">
-                <h1 class=" font-weight-bold tituloTrabajos">Proyectos</h1>
+                <h1 data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-duration="1500" class=" font-weight-bold tituloTrabajos">Proyectos</h1>
               </div>
             </div>
             <div class="row">
@@ -161,10 +165,14 @@
     <div id="Conocimientos" class="container-fluid fondoExperiencia">
       <div class="row">
         <div class="col-12">
-          <h1 class=" font-weight-bold tituloExperiencia">Habilidades</h1>
+          <h1 data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="1500" class=" font-weight-bold tituloExperiencia">Habilidades</h1>
         </div>
       </div>
-      <div class="container">
+      <div data-aos="flip-left"
+      data-aos-easing="ease-out-cubic"
+      data-aos-duration="2000" class="container">
         <!--primeras tres columnas-->
           <div class="row align-items-start">
             <div class="col-lg-4">
@@ -305,6 +313,7 @@
     </section>
 
   </div>
+  
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
@@ -312,6 +321,10 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
     crossorigin="anonymous"></script>
   <script src="app.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>
