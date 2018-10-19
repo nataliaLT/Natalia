@@ -106,11 +106,12 @@ font-size: 17px;
     font-family: 'Prata', serif;
 }
 .proyectos{
-    height: 210px;
+    height: 300px;
     opacity: 1;
     display: block;
     transition: .5s ease;
     margin-bottom: 5%;
+    margin-left: 5%;
 }
 .content{
     position: absolute;
@@ -129,9 +130,40 @@ font-size: 17px;
 }
 .wrapper:hover .proyectos {
 opacity: .5;
+
 }
 .wrapper:hover .overlay{
 opacity: 1;
+
+}
+.tituloModal{
+    font-family: 'Prata', serif;
+}
+.parrafoModal{
+    font-family: 'Lato', sans-serif;
+    text-align: justify;  
+}
+.cifrado{
+    width: 100%;
+    margin-bottom: 5%;
+}
+.transModal{
+    width: 50%;
+    margin-bottom: 5%;
+    margin-left: 25%;
+}
+.registroModal{
+    width: 100%;
+    margin-bottom: 5%;
+    border: solid 1px #A5A5A5;
+}
+.botonModal{
+    background-color: #76dbd1;
+    border:#ecf4f3;
+    color: black;
+}
+.btn:hover{
+    background: #18746A;
 }
 
 /*Diseño de experiencia */
@@ -152,7 +184,7 @@ opacity: 1;
 }
 .parrafoText{
  
-    font-size: 10px;
+    font-size: 13px;
     color: #555151;
     font-family: 'Lato', sans-serif;
 }
@@ -171,11 +203,11 @@ opacity: 1;
 
 /*Diseño de contacto */
 .fondoContacto{
-    background-color: #ecf4f3;
+    background-color: #76dbd1;
 }
 .contenidocontacto{
-    height: 200px;
-    background-color: #ecf4f3;
+    height: 300px;
+    background-color: #76dbd1;
 }
 .tituloContacto{
     margin-top: 5%;
@@ -196,12 +228,25 @@ opacity: 1;
 }
 .correo{
     text-align: center;
-    color: #555151;
+    color: black;
     font-family: 'Lato', sans-serif;
     margin-top: 1%;
+    font-size: 15px;
+}
+.curriculum{
+    margin-left: 46%;
+    color: black;
+}
+@media (max-width:768px){
+    .proyectos{
+        margin-left: 35%;
+    }
+    .content{
+        margin-left: 15%;
+    }
 }
 
-@media (max-width:360px) { 
+@media (max-width:425px) { 
     .tituloPortada{
         padding: 0%;
         margin-top: 10%;
@@ -214,6 +259,10 @@ opacity: 1;
     }
     .proyectos{
         width: 100%;
+        margin-left:1%;
+    }
+    .content{
+        margin-left:1%; 
     }
     .overlay{
         width: 100%;
