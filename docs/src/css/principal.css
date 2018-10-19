@@ -284,6 +284,9 @@ opacity: 1;
     .overlay{
         width: 100%;
     }
+    .logoLinkedin{
+        margin-left: 35%;
+    }
     .curriculum{
         margin-left: 30%;
     }
