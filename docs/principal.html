@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Natalia Lucero</title>
+  <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Lato" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato|Prata" rel="stylesheet">
+  <link rel="stylesheet" href="animate.min.css">
+  <link rel="stylesheet" href="bootstrap-4.1.1-dist/css/bootstrap.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="animate.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+  <link rel="stylesheet" href="src/css/principal.css">
+</head>
+
+<body>
+  <!--Menu-->
+  <nav class="navbar sticky-top navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
+    <a class="navbar-brand" href="#">Natalia Lucero</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+      aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="#Perfil">PERFIL</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Trabajos">PROYECTOS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Conocimientos">HABILIDADES</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Contacto">CONTACTO</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div data-spy="scroll" data-target="#navbar-example2" data-offset="0">
+    <!--Sección de perfil-->
+    <div id="Perfil" class="container-fluid fondoPerfil">
+      <div class="row">
+        <div class="col-lg-12 col-sm-12 col-md-12 ">
+          <h1 class="font-weight-bold  tituloPortada">Sobre mi</h1>
+        </div>
+      </div>
+      <div class="row contenedor">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-12 imagen" >
+          <img class="fotomia" src="imagenes/Natalia-1.png" title="Natalia" alt="Natalia">
+          <p class="text">Soy Natalia Lucero, desarrolladora Front End y Fotógrafa. Mi motivación es la búsqueda de conocimientos que puedan nutrirme cada día más, para desarrollar sitios web de gran calidad, con el propósito de entregar una experiencia única y agradable al usuario. </p>
+          
+        </div>
+      </div>
+    </div>
+
+    <!-- sección de trabajos -->
+    <section id="Trabajos" class="fondoTrabajos">
+      <div class="container">
+          <div class="row">
+              <div class="col-12 col-sm-12 col-md-12 col-lg-12">
+                <h1 class=" font-weight-bold tituloTrabajos">Proyectos</h1>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12 col-sm-12 col-md-9 col-lg-4 wrapper">
+                <img src="imagenes/cifrado.png" alt="" srcset="" class="proyectos">
+                <div class="overlay">
+                  <a data-toggle="modal" data-target="#exampleModalCenter"><i class="fas fa-search-plus content"></i></a>
+                </div>
+                <p class="bajada">Cifrado César</p>
+                <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title tituloModal" id="exampleModalCenterTitle">Cifrado César</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                      <img src="imagenes/cifradoModal.png" alt="" srcset="" class="cifrado">
+                      <p class="parrafoModal">Primer proyecto realizado en el bootcamp de Laboratoria.
+        
+                        Diseñado desde el método de cifrado cesar, el cual consiste en escribir un mensaje con el alfabeto ordenado y al elegir la posicion en que se va a desplazar, imprime el nuevo texto cifrado. Este sitio web esta creado para dispositivos desktop.</p>
+                      </div>
+                      <div class="modal-footer">
+                        <a href="https://github.com/nataliaLT/scl-2018-05-bc-core-pm" target="_blank" class="btn btn-secondary btn btn-primary botonModal" role="button" aria-pressed="true"><i class="fab fa-github"></i> Ver Código</a>
+                        <a href="https://natalialt.github.io/scl-2018-05-bc-core-pm/" target="_blank" class="btn btn-secondary btn btn-primary botonModal" role="button" aria-pressed="true"><i class="far fa-eye"></i> Ver Proyecto</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-12 col-md-9 col-lg-4 wrapper">
+                <img src="imagenes/transLab.png" alt="" srcset="" class="proyectos">
+                <div class="overlay">
+                    <a data-toggle="modal" data-target="#ModalCenter"><i class="fas fa-search-plus content"></i></a>
+                    </div>
+                    <p class="bajada">Trans - Lab</p>
+                    <div class="modal fade" id="ModalCenter" tabindex="-1" role="dialog" aria-labelledby="ModalCenterTitle" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title tituloModal" id="ModalCenterTitle">Trans - Lab</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            <img src="imagenes/transModal.png" alt="" srcset="" class="transModal">
+                              <p class="parrafoModal">Primer proyecto realizado en el bootcamp de Laboratoria.
+        
+                                  Diseñado desde el método de cifrado cesar, el cual consiste en escribir un mensaje con el alfabeto ordenado y al elegir la posicion en que se va a desplazar, imprime el nuevo texto cifrado. Este sitio web esta creado para dispositivos desktop.</p>
+                          </div>
+                          <div class="modal-footer">
+                              <a href="https://github.com/nataliaLT/transLab" target="_blank" class="btn btn-secondary btn btn-primary botonModal" role="button" aria-pressed="true"><i class="fab fa-github"></i> Ver Código</a>
+                        <a href="#" target="_blank" class="btn btn-secondary btn btn-primary botonModal" role="button" aria-pressed="true"><i class="far fa-eye"></i> Ver Proyecto</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+              </div>
+              <div class="col-sm-12 col-md-9 col-lg-4 wrapper">
+                <img src="imagenes/registro.png" alt="" srcset="" class="proyectos">
+                <div class="overlay">
+                    <a data-toggle="modal" data-target="#registroModalCenter"><i class="fas fa-search-plus content"></i></a>    
+                </div>   
+                <p class="bajada">Registro</p>
+                <div class="modal fade" id="registroModalCenter" tabindex="-1" role="dialog" aria-labelledby="registroModalCenterTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title tituloModal" id="registroModalCenterTitle">Registro</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="imagenes/registroModal.png" alt="" srcset="" class="registroModal">
+                          <p class="parrafoModal"></p>
+                        </div>
+                        <div class="modal-footer">
+                            <a href="https://github.com/nataliaLT/scl-2018-01-ProyectoFinalCore" target="_blank" class="btn btn-secondary btn btn-primary botonModal" role="button" aria-pressed="true"><i class="fab fa-github"></i> Ver Código</a>
+                            <a href="https://paulifer.github.io/scl-2018-01-ProyectoFinalCore/" target="_blank" class="btn btn-secondary btn btn-primary botonModal" role="button" aria-pressed="true"><i class="far fa-eye"></i> Ver Proyecto</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+              </div>
+      </div>
+    </section>
+      
+    <!--sección de conocimientos-->
+    <div id="Conocimientos" class="container-fluid fondoExperiencia">
+      <div class="row">
+        <div class="col-12">
+          <h1 class=" font-weight-bold tituloExperiencia">Habilidades</h4>
+        </div>
+      </div>
+      <div class="container">
+        <!--primeras tres columnas-->
+          <div class="row align-items-start">
+            <div class="col-lg-4">
+                <div class="animated pulse delay-2s card">
+                    <div class="card-header">
+                        <i class="fab fa-html5"></i> HTML/5
+                    </div>
+                    <div class="card-body">
+                      <blockquote class="blockquote mb-0">
+                          <p class="parrafoText">Lenguaje de marcado, utilizado para el desarrollo de páginas web.</p>
+                      </blockquote>
+                    </div>
+                  </div>   
+            </div>
+            <div class="col-lg-4">
+                <div class="animated pulse delay-2s card">
+                    <div class="card-header">
+                        <i class="fab fa-css3-alt"></i> CSS/3
+                    </div>
+                    <div class="card-body">
+                      <blockquote class="blockquote mb-0">
+                          <p class="parrafoText">Lenguaje de marcado, utilizado en el diseño visual de un sitio web.</p>
+                      </blockquote>
+                    </div>
+                  </div> 
+            </div>
+            <div class="col-lg-4">
+                <div class="animated pulse delay-2s card">
+                    <div class="card-header">
+                        <i class="fab fa-js-square"></i> JavaScript
+                    </div>
+                    <div class="card-body">
+                      <blockquote class="blockquote mb-0">
+                          <p class="parrafoText">Lenguaje de programación, utilizado para crear sitios web.</p>
+                      </blockquote>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          
+          <!--seguna tres columnas-->
+          <div class="row align-items-center">
+            <div class="col-lg-4">
+                <div class="animated pulse delay-2s card">
+                    <div class="card-header">
+                      <i class="fas fa-code-branch"></i> Git & Github
+                    </div>
+                    <div class="card-body">
+                      <blockquote class="blockquote mb-0">
+                        <p class="parrafoText">Control de versiones. Servicio para alojamiento de respositorios</p>
+                      </blockquote>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="animated pulse delay-2s card">
+                    <div class="card-header">
+                      <i class="fab fa-react"></i> React
+                    </div>
+                    <div class="card-body">
+                      <blockquote class="blockquote mb-0">
+                        <p class="parrafoText">Librería js diseñada para el desarrollo de interfaces de usuario.</p>
+                      </blockquote>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="animated pulse delay-2s card">
+                    <div class="card-header">
+                      <img src="imagenes/descarga (1)copia.png" alt="" srcset="" class="bootstrap"> Bootstrap
+                    </div>
+                    <div class="card-body">
+                      <blockquote class="blockquote mb-0">
+                        <p class="parrafoText">Framework desarrollado para facilitar el diseño web.</p>
+                      </blockquote>
+                    </div>
+                  </div>
+            </div>
+          </div>
+          <!--tercera tres columnas-->
+          <div class="row align-items-end">
+            <div class="col-lg-4">
+                <div class="animated pulse delay-2s card">
+                    <div class="card-header">
+                        <img src="imagenes/descarga (2) copia.png" alt="" srcset="" class="figma"> Figma
+                    </div>
+                    <div class="card-body">
+                      <blockquote class="blockquote mb-0">
+                          <p class="parrafoText">Aplicación de diseño de interfaces.                   </p>
+                      </blockquote>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="animated pulse delay-2s card">
+                    <div class="card-header">
+                        <img src="imagenes/Photoshop copia1.png" alt="" srcset="" class="photoshop"> Adobe Photoshop
+                    </div>
+                    <div class="card-body">
+                      <blockquote class="blockquote mb-0">
+                          <p class="parrafoText">Programa de edición de imagenes.
+                                  
+                          </p>
+                      </blockquote>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="animated pulse delay-2s card">
+                    <div class="card-header">
+                        <img src="imagenes/descarga (3).png" alt="" srcset="" class="ligthroom"> Adobe Ligthroom
+                    </div>
+                    <div class="card-body">
+                      <blockquote class="blockquote mb-0">
+                          <p class="parrafoText">Programa especializado en el diseño de imagenes.</p>
+                      </blockquote>
+                    </div>
+                  </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--sección de contacto-->
+    <section id="Contacto" class="fondoContacto">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-12 col-sm-12 col-md-12 contenidocontacto">
+          <h1 class=" font-weight-bold tituloContacto">Contáctame</h1>
+          <a href="https://www.linkedin.com/in/natalialucerot" target="_blank" class="linkedin"><i class="fab fa-linkedin logoLinkedin"></i></a>
+          <a href="https://github.com/nataliaLT" target="_blank" class="github"><i class="fab fa-github-square github"></i></a>
+          <p class="correo"><i class="fas fa-envelope"></i> natalia.lucerot@gmail.com</p>
+          <a href="https://drive.google.com/file/d/1eHxmH1WsfndkAAh4EkgDBH31Ey-ZHE8U/view?usp=sharing" target="_blank" class="btn btn-secondary btn btn-primary botonModal" role="button" aria-pressed="true"><i class="fab fa-github"></i> Ver Código</a>
+        </div>
+      </div>
+    </div>
+    </section>
+
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+    crossorigin="anonymous"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
