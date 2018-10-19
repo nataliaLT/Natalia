@@ -20,6 +20,7 @@ font-size: 17px;
     display: flex;
     justify-content: right;
 }
+
 /*Diseño de sección perfil*/
 .fondoPerfil{
     background-color: #fffdf6; 
@@ -32,11 +33,65 @@ font-size: 17px;
     font-family: 'Prata', serif;
     text-align: center;
 }
-.parrafoPresentacion{
-    margin-top: 20px;
-    text-align: center;
-}
 
+  .contenedor {
+    width: 500px;
+    height: 200px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 40%;
+  }
+  .imagen {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .imagen .fotomia {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    transform: scale(1);
+    -ms-transform: scale(1);
+    -moz-transform: scale(1);
+    -webkit-transform: scale(1);
+    -o-transform: scale(1);
+    -webkit-transition: all 500ms ease-in-out;
+    -moz-transition: all 500ms ease-in-out;
+    -ms-transition: all 500ms ease-in-out;
+    -o-transition: all 500ms ease-in-out;
+  }
+  .imagen .text {
+    font-family: 'Lato', sans-serif;
+    padding-top: 5px;
+    display: block;
+    text-align: center;
+    width: 100%;
+    transform: translate(0px);
+    -webkit-transition: all 500ms ease-in-out;
+    -moz-transition: all 500ms ease-in-out;
+    -ms-transition: all 500ms ease-in-out;
+    -o-transition: all 500ms ease-in-out;
+    opacity: 0;
+    transition: transfom opacity 1.5s;
+  }
+  .imagen:hover .fotomia {
+    transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    -webkit-transform: scale(0.8);
+    -o-transform: scale(0.8);
+  }
+  .imagen:hover .text {
+    transform: translate(0px, -20px);
+    opacity: 1;
+  }
 /*Diseño de trabajos */
 .fondoTrabajos{
     padding: 5%;
@@ -144,4 +199,23 @@ opacity: 1;
     color: #555151;
     font-family: 'Lato', sans-serif;
     margin-top: 1%;
+}
+
+@media (max-width:360px) { 
+    .tituloPortada{
+        padding: 0%;
+        margin-top: 10%;
+    }
+    .contenedor{
+        width: 100%;
+    }
+    .wrapper{
+        width: 100%;
+    }
+    .proyectos{
+        width: 100%;
+    }
+    .overlay{
+        width: 100%;
+    }
 }
