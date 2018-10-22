@@ -4,4 +4,6 @@ Desarrolladora Front End y Fotógrafa. Mi motivación es la búsqueda de conocim
 ## Portafolio
 Puedes revisar mi portafolio [aqui](https://natalialt.github.io/Natalia/).
 
+## Proyecto
+[Imagen]()
 
